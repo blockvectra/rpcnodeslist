@@ -70,7 +70,8 @@ const blockchains = [
           "https://arb1.arbitrum.io/rpc",
           "https://arbitrum.api.onfinality.io/public",
           "https://rpc.swiftnodes.io/rpc/arbitrum?key=demo",
-          "https://arbitrum-one-mainnet.gateway.tatum.io"
+          "https://arbitrum-one-mainnet.gateway.tatum.io",
+          "https://api.blockvectra.com/v1/arb_mainnet/public"
         ],
         "chainId": "0xa4b1",
         "nativeCurrency": "ETH",
@@ -185,7 +186,8 @@ const blockchains = [
           "https://base.drpc.org",
           "https://mainnet.base.org",
           "https://rpc.swiftnodes.io/rpc/base?key=demo",
-          "https://base-mainnet.gateway.tatum.io"
+          "https://base-mainnet.gateway.tatum.io",
+          "https://api.blockvectra.com/v1/base_mainnet/public"
         ],
         "chainId": "0x2105",
         "nativeCurrency": "ETH",
@@ -258,7 +260,8 @@ const blockchains = [
           "https://bsc-dataseed1.binance.org",
           "https://bsc-dataseed2.binance.org",
           "https://rpc.swiftnodes.io/rpc/bsc?key=demo",
-          "https://bsc-mainnet.gateway.tatum.io"
+          "https://bsc-mainnet.gateway.tatum.io",
+          "https://api.blockvectra.com/v1/bsc_mainnet/public"
         ],
         "chainId": "0x38",
         "nativeCurrency": "BNB",
@@ -626,7 +629,8 @@ const blockchains = [
           "https://ethereum.publicnode.com",
           "https://cloudflare-eth.com",
           "https://rpc.swiftnodes.io/rpc/eth?key=demo",
-          "https://ethereum-mainnet.gateway.tatum.io"
+          "https://ethereum-mainnet.gateway.tatum.io",
+          "https://api.blockvectra.com/v1/eth_mainnet/public"
         ],
         "chainId": "0x1",
         "nativeCurrency": "ETH",
@@ -649,7 +653,8 @@ const blockchains = [
           "https://rpc2.sepolia.org",
           "https://eth-sepolia.g.alchemy.com/v2/demo",
           "https://ethereum-sepolia.publicnode.com",
-          "https://ethereum-sepolia.gateway.tatum.io"
+          "https://ethereum-sepolia.gateway.tatum.io",
+          "https://api.blockvectra.com/v1/eth_sepolia/public"
         ],
         "chainId": "0xaa36a7",
         "nativeCurrency": "ETH",
@@ -1697,7 +1702,8 @@ const blockchains = [
           "https://polygon.api.onfinality.io/public",
           "https://polygon-bor.publicnode.com",
           "https://rpc.swiftnodes.io/rpc/polygon?key=demo",
-          "https://polygon-mainnet.gateway.tatum.io"
+          "https://polygon-mainnet.gateway.tatum.io",
+          "https://api.blockvectra.com/v1/polygon_mainnet/public"
         ],
         "chainId": "0x89",
         "nativeCurrency": "POL",
@@ -2697,7 +2703,8 @@ const blockchains = [
         "rpcUrls": [
           "https://rpc.hyperliquid.xyz/evm",
           "https://hyperliquid.drpc.org",
-          "https://hyperevm-mainnet.gateway.tatum.io"
+          "https://hyperevm-mainnet.gateway.tatum.io",
+          "https://api.blockvectra.com/v1/hyperevm_mainnet/public"
         ],
         "chainId": "999",
         "nativeCurrency": "HYPE",
@@ -3690,7 +3697,8 @@ const blockchains = [
       {
         "network": "Mainnet",
         "rpcUrls": [
-          "https://rpc.mainnet.chain.robinhood.com"
+          "https://rpc.mainnet.chain.robinhood.com",
+          "https://api.blockvectra.com/v1/robinhood_mainnet/public"
         ],
         "chainId": "0x1237",
         "nativeCurrency": "ETH",
@@ -3699,9 +3707,10 @@ const blockchains = [
       {
         "network": "Testnet",
         "rpcUrls": [
-          "https://rpc.testnet.chain.robinhood.com"
+          "https://rpc.testnet.chain.robinhood.com",
+          "https://api.blockvectra.com/v1/robinhood_testnet/public"
         ],
-        "chainId": "0xB636",
+        "chainId": "0xB626",
         "nativeCurrency": "ETH",
         "blockExplorer": "https://explorer.testnet.chain.robinhood.com/"
       }
